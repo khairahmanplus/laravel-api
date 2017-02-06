@@ -19,7 +19,7 @@ class NotesController extends Controller
 
         if (is_null($notes)) {
             return response()->json([
-                'message'       => 'Resource Not Found.'
+                'message'       => 'Resource not found.'
             ], 404);
         }
 
@@ -68,7 +68,7 @@ class NotesController extends Controller
 
         if (is_null($note)) {
             return response()->json([
-                'message' => 'Resource Not Found.'
+                'message' => 'Resource not found.'
             ], 404);
         }
 
@@ -101,7 +101,7 @@ class NotesController extends Controller
 
         if (is_null($note)) {
             return response()->json([
-                'message' => 'Resource Not Found.'
+                'message' => 'Resource not found.'
             ], 404);
         }
 
@@ -126,7 +126,7 @@ class NotesController extends Controller
 
         if (is_null($note)) {
             return response()->json([
-                'message' => 'Resource Not Found.'
+                'message' => 'Resource not found.'
             ], 404);
         }
 
